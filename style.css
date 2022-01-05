@@ -1,5 +1,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
+margin: 0;
+background-color:rosybrown;
 }
 h1{
     font-size: 50px;
@@ -11,10 +13,22 @@ h1{
 section{
     display: flex;
 }
-.half-with{
+.half-width{
     width: 50%;
-    padding-left: 10px;
+    padding-left: 2%;
 }
-.half-with img{
-    
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color:red;
+    font-weight: 700;
+
+}
+.top-banner {
+    background-image: url(images(2));
 }
